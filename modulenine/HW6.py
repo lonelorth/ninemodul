@@ -5,7 +5,6 @@ def all_variants(text):
             yield text[i:j]
 
 
-
 a = all_variants('abc')
 for i in a:
     print(i)
